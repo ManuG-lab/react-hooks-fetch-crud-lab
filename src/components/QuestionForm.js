@@ -24,7 +24,7 @@ function QuestionForm(props) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
+      body:JSON.stringify({
         prompt: formData.prompt,
         answers: [
           formData.answer1,
